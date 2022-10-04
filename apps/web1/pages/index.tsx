@@ -1,10 +1,12 @@
-import { Button } from "ui";
+import { Box, Center, Heading, MyButton, VStack } from "ui";
 
 export default function Web() {
   return (
-    <div>
-      <h1>Web</h1>
-      <Button />
-    </div>
+    <Center minH="100vh">
+      <VStack>
+        <Heading>Web</Heading>
+        <MyButton />
+      </VStack>
+    </Center>
   );
 }
